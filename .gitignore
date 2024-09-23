@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore folders
+admin
+
+# Ignore DS_Store
+*.DS_Store
