@@ -13,9 +13,17 @@ indir <- "data/cva/raw/subscores"
 outdir <- "data/cva/processed"
 plotdir <- "data/cva/figures"
 
-# Read data
+# Read subscores
 data_orig <- readxl::read_excel(file.path(indir, "all-cva-data_manually_formatted.xlsx"), na=c("null", "N/A"), col_types = "text")
 
+# Read scores
+scores <- readRDS(file.path(outdir, "cva_data.Rds"))
+
+# Build species key
+spp_key <- scores %>% 
+  select(comm_name, species) %>% 
+  unique()
+freeR::which_duplicated(spp_key$comm_name)
 
 # Build data
 ################################################################################
@@ -70,20 +78,28 @@ data <- data_orig %>%
   mutate(score_catg=gsub("'|`", "", score_catg)) %>% 
   # Format vulnerability
   mutate(vulnerability=gsub("'|`|]", "", vulnerability)) %>% 
-  # Merge common name
-  mutate(comm_name2=ifelse(is.na(comm_name2), "", comm_name2),
-         comm_name3=ifelse(is.na(comm_name3), "", comm_name3),
-         comm_name=paste(comm_name1, comm_name2, comm_name3) %>% gsub("\\[|\\]|'|`", "", .) %>% stringr::str_squish() ) %>% 
-  select(-c(comm_name1, comm_name2, comm_name3)) %>% 
   # Merge area
   mutate(area=paste(area1, area2, area3, sep="/"),
          area=gsub("/NA", "", area) %>% stringr::str_squish(),
          area=ifelse(area=="NA", NA, area)) %>%
   select(-c(area1, area2, area3)) %>% 
+  # Merge common name
+  mutate(comm_name2=ifelse(is.na(comm_name2), "", comm_name2),
+         comm_name3=ifelse(is.na(comm_name3), "", comm_name3),
+         comm_name=paste(comm_name1, comm_name2, comm_name3) %>% gsub("\\[|\\]|'|`", "", .) %>% stringr::str_squish() ) %>% 
+  select(-c(comm_name1, comm_name2, comm_name3)) %>% 
+  # Format common name
+  mutate(comm_name=stringr::str_to_sentence(comm_name)) %>% 
+  # Add scientific name
+  left_join(spp_key, by=c("comm_name")) %>% 
   # Convert to numeric
   mutate_at(vars(data_quality, n_low:n_very_high, score_avg), as.numeric) %>% 
   # Arrange
-  select(region, system, area, comm_name, everything())
+  select(region, system, area, comm_name, species, everything())
+
+# Species
+spp_key_check <- data %>% 
+  count(comm_name, species)
   
 # Inspect
 str(data)
@@ -106,9 +122,7 @@ table(data$vulnerability)
 region_key <- data %>% 
   count(region, system)
 
-# Species
-spp_key <- data %>% 
-  count(system, comm_name)
+
 
 # Attribute key
 att_key <- data %>% 
