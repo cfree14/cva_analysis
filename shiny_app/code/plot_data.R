@@ -1,6 +1,6 @@
 
 # Plot subscores
-# region <- "Bering Sea"
+# data <- subscores; region <- "Bering Sea"
 plot_subscores <- function(data, region){
   
   # Setup theme
@@ -42,10 +42,16 @@ plot_subscores <- function(data, region){
     ungroup() %>% 
     arrange(desc(score_avg))
   
+  # Longest x-axis label
+  nchar_max <- data %>% 
+    filter(region==region_do) %>% 
+    pull(attribute) %>% unique() %>% nchar() %>% max()
+    
   # Order data
   data_ordered1 <- data1 %>% 
     mutate(comm_name=factor(comm_name, levels=stats_spp1$comm_name),
-           attribute=factor(attribute, levels=stats_att1$attribute))
+           attribute=factor(attribute, levels=stats_att1$attribute)) %>% 
+    mutate(attribute=stringr::str_pad(attribute, width=nchar_max, side="left", pad=" "))
   
   # Plot exposure
   g1 <- ggplot(data_ordered1,
@@ -89,7 +95,8 @@ plot_subscores <- function(data, region){
   # Order data
   data_ordered2 <- data2 %>% 
     mutate(comm_name=factor(comm_name, levels=stats_spp2$comm_name),
-           attribute=factor(attribute, levels=stats_att2$attribute))
+           attribute=factor(attribute, levels=stats_att2$attribute)) %>% 
+    mutate(attribute=stringr::str_pad(attribute, width=nchar_max, side="left", pad=" "))
   
   # Plot exposure
   g2 <- ggplot(data_ordered2,
@@ -173,6 +180,130 @@ plot_scores <- function(data, region){
   
 }
 
+
+# Plot data quality
+# data <- subscores; region <- "Bering Sea"
+plot_subscore_quality <- function(data, region){
+  
+  # Setup theme
+  my_theme <-  theme(axis.text=element_text(size=10),
+                     axis.title=element_text(size=11),
+                     legend.text=element_text(size=10),
+                     legend.title=element_text(size=11),
+                     strip.text=element_text(size=11),
+                     plot.title=element_text(size=12),
+                     # Gridlines
+                     panel.grid.major = element_blank(), 
+                     panel.grid.minor = element_blank(),
+                     panel.background = element_blank(), 
+                     axis.line = element_line(colour = "black"),
+                     # Legend
+                     legend.key = element_rect(fill = NA, color=NA),
+                     legend.background = element_rect(fill=alpha('blue', 0)))
+  
+  # Exposure
+  ##############################
+  
+  # Longest x-axis label
+  nchar_max <- data %>% 
+    filter(region==region_do) %>% 
+    pull(attribute) %>% unique() %>% nchar() %>% max()
+  
+  # Prepare data
+  region_do <- region
+  data1 <- data %>% 
+    # Filter to region of interest
+    filter(region==region_do & metric=="Exposure")
+  
+  # Species stats
+  stats_spp1 <- data1 %>% 
+    group_by(system, comm_name) %>% 
+    summarize(data_quality_avg=mean(data_quality, na.rm=T)) %>% 
+    ungroup() %>% 
+    arrange(system, desc(data_quality_avg))
+  
+  # Attribute stats
+  stats_att1 <- data1 %>% 
+    group_by(attribute) %>% 
+    summarize(data_quality_avg=mean(data_quality, na.rm=T)) %>% 
+    ungroup() %>% 
+    arrange(desc(data_quality_avg))
+  
+  # Order data
+  data_ordered1 <- data1 %>% 
+    mutate(comm_name=factor(comm_name, levels=stats_spp1$comm_name),
+           attribute=factor(attribute, levels=stats_att1$attribute)) %>% 
+    mutate(attribute=stringr::str_pad(attribute, width=nchar_max, side="left", pad=" "))
+  
+  # Plot exposure
+  g1 <- ggplot(data_ordered1,
+               aes(x=attribute, y=comm_name, fill=data_quality)) +
+    facet_grid(system~., space="free_y", scales="free_y", 
+               labeller = label_wrap_gen(width=10, multi_line = T)) +
+    geom_raster() +
+    # Labels
+    labs(x="", y="", tag="A", title = "Exposure subscore data quality") +
+    # Legend
+    scale_fill_gradientn(name="Data quality", colors=RColorBrewer::brewer.pal(9, "Spectral") %>% rev(), na.value = "white") +
+    guides(fill = guide_colorbar(ticks.colour = "black", frame.colour = "black", frame.linewidth = 0.2)) +
+    # Theme
+    theme_bw() + my_theme +
+    theme(strip.text.y = element_text(angle = 0), 
+          axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
+  g1
+  
+  # Sensitivity
+  ##############################
+  
+  # Prepare data
+  region_do <- region
+  data2 <- data %>% 
+    # Filter to region of interest
+    filter(region==region_do & metric=="Sensitivity")
+  
+  # Species stats
+  stats_spp2 <- data2 %>% 
+    group_by(system, comm_name) %>% 
+    summarize(data_quality_avg=mean(data_quality)) %>% 
+    ungroup() %>% 
+    arrange(system, desc(data_quality_avg))
+  
+  # Attribute stats
+  stats_att2 <- data2 %>% 
+    group_by(attribute) %>% 
+    summarize(data_quality_avg=mean(data_quality)) %>% 
+    ungroup() %>% 
+    arrange(desc(data_quality_avg))
+  
+  # Order data
+  data_ordered2 <- data2 %>% 
+    mutate(comm_name=factor(comm_name, levels=stats_spp2$comm_name),
+           attribute=factor(attribute, levels=stats_att2$attribute)) %>% 
+    mutate(attribute=stringr::str_pad(attribute, width=nchar_max, side="left", pad=" "))
+  
+  # Plot exposure
+  g2 <- ggplot(data_ordered2,
+               aes(x=attribute, y=comm_name, fill=data_quality)) +
+    facet_grid(system~., space="free_y", scales="free_y", 
+               labeller = label_wrap_gen(width=10, multi_line = T)) +
+    geom_raster() +
+    # Labels
+    labs(x="", y="", tag="B", title = "Sensitivity subscore data quality") +
+    # Legend
+    scale_fill_gradientn(name="Data quality", colors=RColorBrewer::brewer.pal(9, "Spectral") %>% rev(), na.value = "white") +
+    guides(fill = guide_colorbar(ticks.colour = "black", frame.colour = "black", frame.linewidth = 0.2)) +
+    # Theme
+    theme_bw() + my_theme +
+    theme(strip.text.y = element_text(angle = 0), 
+          axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
+  g2
+  
+  # Merge
+  ##############################
+  
+  g <- gridExtra::grid.arrange(g1, g2, nrow=1)
+  
+}
 
 # Plot exposure subscores
 # region <- "Bering Sea"

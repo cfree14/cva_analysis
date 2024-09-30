@@ -47,13 +47,17 @@ ui <- fluidPage(
               choices = regions,  multiple = F),
   br(),
   
+  # Plot scores
+  h3("CVA scores"),
+  plotOutput(outputId = "plot_scores", width=500, height=600),
+  
   # Plot subscores
   h3("CVA subscores"),
   plotOutput(outputId = "plot_subscores", width=1500, height=850),
   
-  # Plot scores
-  h3("CVA scores"),
-  plotOutput(outputId = "plot_scores", width=500, height=600),
+  # Plot subscore data quality
+  h3("CVA subscore data quality"),
+  plotOutput(outputId = "plot_subscore_quality", width=1500, height=850)
    
 )
 
@@ -75,6 +79,13 @@ server <- function(input, output, session){
   output$plot_scores <- renderPlot({
     g <- plot_scores(data = scores,
                      region=input$region)
+    g
+  })
+  
+  # Plot subscore data quality
+  output$plot_subscore_quality <- renderPlot({
+    g <- plot_subscore_quality(data = subscores,
+                               region=input$region)
     g
   })
   

@@ -29,6 +29,12 @@ data_np <- readRDS(file.path(indir, "north_pacific/Spencer_etal_2019_cva.Rds")) 
 data_wp <- readRDS(file.path(indir, "western_pacific/Giddens_etal_2022_cva.Rds")) %>% 
   mutate(reference="Giddens et al. 2022",
          region="Western Pacific")
+data_car <- readxl::read_excel(file.path(indir, "caribbean_rec/EDF_tables.xlsx")) %>% 
+  mutate(reference="EDF 2022",
+         region="Caribbean")
+data_mm <- readRDS(file.path(indir, "marine_mammals/Lettrich_etal_2023_cva.Rds")) %>% 
+  mutate(reference="Lettrich et al. 2023",
+         region="Marine mammals")
 
 # Read Pacific
 data_pac <- readRDS(file.path(indir, "pacific/McClure_etal_2023_cva.Rds")) %>% 
@@ -51,9 +57,11 @@ data_pac_salmon <- readxl::read_excel(file.path(indir, "pacific_salmon/Crozier_e
 ################################################################################
 
 # Merge data
-data <- bind_rows(data_ne, data_sa, data_gom, data_np, data_wp, data_pac, data_pac_salmon) %>% 
+data <- bind_rows(data_ne, data_sa, data_gom, data_car,
+                  data_np, data_wp, data_pac, data_pac_salmon, 
+                  data_mm) %>% 
   # Arrange
-  select(reference, region, functional_group, comm_name, species, 
+  select(reference, region, functional_group, comm_name, species, area, 
          vulnerability, sensitivity, exposure, dir_effect, dist_change) %>% 
   # Format directional effect
   mutate(dir_effect=stringr::str_to_sentence(dir_effect)) %>% 
@@ -172,7 +180,7 @@ stats <- data %>%
   mutate(prop=n/sum(n)) %>% 
   ungroup() %>% 
   mutate(region=factor(region,
-                       levels=c("Northeast", "South Atlantic", "Gulf of Mexico",
+                       levels=c("Northeast", "South Atlantic", "Gulf of Mexico", "Caribbean",  "Marine mammals",
                                 "Pacific", "Pacific salmon", "Bering Sea", "Western Pacific")))
 
 
@@ -180,12 +188,13 @@ stats <- data %>%
 ################################################################################
 
 # Setup theme
-my_theme <-  theme(axis.text=element_text(size=8),
-                   axis.title=element_text(size=9),
-                   legend.text=element_text(size=8),
-                   legend.title=element_text(size=9),
-                   strip.text=element_text(size=8),
-                   plot.title=element_text(size=9),
+my_theme <-  theme(axis.text=element_text(size=6),
+                   axis.title=element_text(size=7),
+                   axis.title.y=element_blank(),
+                   legend.text=element_text(size=6),
+                   legend.title=element_text(size=7),
+                   strip.text=element_text(size=7),
+                   plot.title=element_text(size=8),
                    # Gridlines
                    panel.grid.major = element_blank(), 
                    panel.grid.minor = element_blank(),
@@ -211,8 +220,53 @@ g <- ggplot(stats, aes(y=functional_group, x=prop, fill=vulnerability)) +
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "cva_scores.png"), 
-       width=6.5, height=7, units="in", dpi=600)
+ggsave(g, filename=file.path(plotdir, "cva_scores_long.png"), 
+       width=6.5, height=8, units="in", dpi=600)
+
+# Export data
+################################################################################
+
+# Groups
+groups <- c("Northeast", "South Atlantic", "Gulf of Mexico", "Caribbean",  "Marine mammals")
+
+# Plot
+g1 <- ggplot(stats %>% filter(region %in% groups), 
+             aes(y=functional_group, x=prop, fill=vulnerability)) +
+  facet_grid(region~., space="free_y", scales="free_y") +
+  geom_bar(stat="identity", color="grey30", lwd=0.2) +
+  # Labels
+  labs(x="Proportion of species", y="", title="East Coast CVAs") +
+  scale_x_continuous(labels=scales::percent_format()) +
+  # Legend
+  scale_fill_manual(name="Vulnerability",
+                    values=RColorBrewer::brewer.pal(4, "Spectral") %>% rev()) +
+  # Theme
+  theme_bw() + my_theme +
+  theme(legend.position = "none")
+g1
+
+# Plot
+g2 <- ggplot(stats %>% filter(!region %in% groups), 
+             aes(y=functional_group, x=prop, fill=vulnerability)) +
+  facet_grid(region~., space="free_y", scales="free_y") +
+  geom_bar(stat="identity", color="grey30", lwd=0.2) +
+  # Labels
+  labs(x="Proportion of species", y="", title="West Coast CVAs") +
+  scale_x_continuous(labels=scales::percent_format()) +
+  # Legend
+  scale_fill_manual(name="Vulnerability",
+                    values=RColorBrewer::brewer.pal(4, "Spectral") %>% rev()) +
+  # Theme
+  theme_bw() + my_theme +
+  theme(legend.key.size = unit(0.3, "cm"))
+g2
+
+# Merge
+g <- gridExtra::grid.arrange(g1, g2, nrow=1, widths=c(0.45, 0.55))
+
+# Export
+ggsave(g, filename=file.path(plotdir, "cva_scores_wide.png"), 
+       width=6.5, height=6.5, units="in", dpi=600)
 
 
 # Export data

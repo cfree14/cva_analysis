@@ -1,0 +1,50 @@
+Dataset: Aleutian Islands ,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Anoplopoma fimbria,Sablefish,52.024,52.092,0.068,0.13,-277.774,-225.923,51.851,-18.67
+Atheresthes stomias and A. evermanni,Arrowtooth and kamchatka flounders,52.497,52.707,0.21,0.4,-200.615,-181.164,19.451,-9.7
+Bathymaster signatus,Searcher,52.33,52.272,-0.058,-0.11,-164.677,-181.801,-17.124,10.4
+Bathyraja spp.,Skate complex,52.316,52.361,0.045,0.09,-226.24,-226.011,0.23,-0.1
+Berryteuthis magister,Magister armhook squid,52.503,52.682,0.179,0.34,-245.495,-231.573,13.922,-5.67
+Cheiraster (Luidiaster) dawsoni,,52.213,52.032,-0.181,-0.35,-191.995,-185.291,6.704,-3.49
+Chionoecetes bairdi,Tanner crab,52.724,53.477,0.753,1.43,-106.017,-106.1,-0.082,0.08
+Crossaster papposus,Common sunstar,52.222,52.492,0.269,0.52,-169.657,-188.276,-18.619,10.97
+Cucumaria fallax,Sea football,52.132,52.379,0.247,0.47,-144.795,-141.734,3.061,-2.11
+Diplopteraster multipes,Pincushion star,52.282,52.569,0.287,0.55,-186.059,-189.945,-3.886,2.09
+Enteroctopus dofleini,North pacific giant octopus,52.03,52.611,0.581,1.12,-152.154,-145.734,6.42,-4.22
+Eumicrotremus orbis,Pacific spiny lumpsucker,52.258,52.224,-0.034,-0.07,-193.541,-197.279,-3.738,1.93
+Fusitriton oregonensis,Oregon triton,52.65,53.081,0.43,0.82,-159.758,-152.874,6.884,-4.31
+Gadus chalcogrammus,Walleye pollock,53.254,52.961,-0.293,-0.55,-174.347,-208.725,-34.378,19.72
+Gadus macrocephalus,Pacific cod,52.55,52.547,-0.003,0,-175.734,-196.894,-21.16,12.04
+Glyptocephalus zachirus,Rex sole,52.976,53.006,0.03,0.06,-192.676,-158.353,34.323,-17.81
+Gorgonocephalus eucnemis,Basket star,52.368,52.37,0.001,0,-231.937,-218.675,13.262,-5.72
+Gymnocanthus galeatus,Armorhead sculpin,52.506,52.253,-0.253,-0.48,-140.557,-142.65,-2.093,1.49
+Halocynthia aurantium,Sea peach,52.021,52.251,0.23,0.44,-121.662,-192.849,-71.187,58.51
+Hemilepidotus jordani,Yellow irish lord,52.959,52.356,-0.602,-1.14,-152.134,-189.617,-37.483,24.64
+Hippoglossoides elassodon,Flathead sole,53.274,53.256,-0.018,-0.03,-110.316,-119.453,-9.136,8.28
+Hippoglossus stenolepis,Pacific halibut,52.615,52.651,0.036,0.07,-167.488,-185.361,-17.873,10.67
+Hyas lyratus,Pacific lyre crab,52.198,52.6,0.402,0.77,-143.258,-165.888,-22.63,15.8
+Lepidopsetta sp.,Rock soles,52.602,52.481,-0.121,-0.23,-145.452,-149.345,-3.893,2.68
+Lethasterias nanimensis,Black spined sea star,52.169,52.329,0.16,0.31,-149.511,-157.642,-8.13,5.44
+Lithodes aequispinus,Golden king crab,52.424,52.498,0.074,0.14,-276.071,-254.495,21.576,-7.82
+Malacocottus zonurus,Darkfin sculpin,52.319,52.381,0.061,0.12,-242.586,-237.596,4.99,-2.06
+Microstomus pacificus,Dover sole,52.313,52.431,0.118,0.23,-230.019,-199.53,30.489,-13.25
+Mycale (Mycale) loveni,Loven's horny sponge,53.537,52.289,-1.247,-2.33,-142.561,-220.431,-77.87,54.62
+Myoxocephalus polyacanthocephalus,Great sculpin,52.934,53.059,0.125,0.24,-120.313,-107.936,12.377,-10.29
+Oregonia gracilis,Graceful decorator crab,52.248,52.441,0.192,0.37,-137.167,-175.527,-38.36,27.97
+Pagurus brandti,Sponge hermit,52.234,52.851,0.617,1.18,-124.236,-148.444,-24.208,19.49
+Pandalus eous,Northern shrimp,52.358,53.101,0.743,1.42,-167.003,-132.819,34.184,-20.47
+Pleurogrammus monopterygius,Atka mackerel,52.816,52.306,-0.51,-0.97,-151.204,-194.879,-43.674,28.88
+Pododesmus macrochisma,Green falsejingle,52.125,52.741,0.616,1.18,-121.168,-132.852,-11.685,9.64
+Podothecus accipenserinus,Sturgeon poacher,52.575,53.421,0.845,1.61,-101.3,-91.408,9.892,-9.76
+Rossia pacifica,Eastern pacific bobtail,52.248,52.353,0.105,0.2,-181.493,-223.284,-41.791,23.03
+Sarritor frenatus,Sawback poacher,52.226,52.168,-0.058,-0.11,-207.573,-216.139,-8.566,4.13
+Sebastes alutus,Pacific ocean perch,52.211,52.363,0.153,0.29,-224.381,-208.725,15.656,-6.98
+Sebastes borealis,Shortraker rockfish,52.012,51.8,-0.211,-0.41,-255.094,-281.88,-26.787,10.5
+Sebastes melanostictus and S. aleutianus,Blackspotted and rougheye rockfish,52.128,52.231,0.103,0.2,-255.223,-233.373,21.85,-8.56
+Sebastes polyspinis,Northern rockfish,52.391,52.321,-0.07,-0.13,-179.372,-154.938,24.434,-13.62
+Sebastes variabilis and S. ciliatus,Dusky and dark rockfish,53.323,52.558,-0.765,-1.43,-130.239,-148.558,-18.319,14.07
+Sebastolobus alascanus,Shortspine thornyhead,52.324,52.346,0.022,0.04,-231.667,-254.569,-22.901,9.89
+Triglops forficatus,Scissortail sculpin,52.316,51.977,-0.34,-0.65,-181.156,-185.246,-4.091,2.26
+Triglops scepticus,Spectacled sculpin,52.205,52.479,0.274,0.52,-213.211,-284.838,-71.628,33.59
+Zaprora silenus,Prowfish,52.925,52.416,-0.508,-0.96,-164.034,-196.427,-32.392,19.75
