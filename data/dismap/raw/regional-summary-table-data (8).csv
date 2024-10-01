@@ -1,0 +1,70 @@
+Dataset: Northern Bering Sea ,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Acantholumpenus mackayi,Pighead prickleback,63.764,63.865,0.101,0.16,-16.992,-17.762,-0.77,4.53
+Arctoraja parmifera,Alaska skate,62.163,62.091,-0.072,-0.12,-36.124,-38.701,-2.576,7.13
+Aspidophoroides olrikii,Arctic alligatorfish,64.542,64.616,0.074,0.11,-43.403,-46.235,-2.833,6.53
+Asterias amurensis,North pacific seastar,63.111,62.997,-0.114,-0.18,-25.255,-26.409,-1.153,4.57
+Boltenia ovifera,Stalked sea squirt,64.011,63.869,-0.143,-0.22,-41.86,-38.382,3.478,-8.31
+Boreogadus saida,Arctic cod,62.798,63.587,0.789,1.26,-54.972,-49.1,5.872,-10.68
+Buccinum angulosum,Angular whelk,62.723,62.511,-0.212,-0.34,-42.605,-39.784,2.821,-6.62
+Buccinum polare,Polar whelk,62.692,62.692,0,0,-46.969,-49.71,-2.741,5.84
+Buccinum scalariforme,Ladder whelk,62.826,62.193,-0.634,-1.01,-48.354,-46.159,2.195,-4.54
+Chionoecetes opilio,Snow crab,62.343,63.06,0.718,1.15,-52.344,-48.582,3.762,-7.19
+Chrysaora melanaster,,62.519,62.842,0.323,0.52,-43.416,-46.238,-2.822,6.5
+Clupea pallasii,Pacific herring,62.361,62.419,0.058,0.09,-42.644,-34.771,7.873,-18.46
+Crossaster papposus,Common sunstar,64.87,65.058,0.188,0.29,-37.413,-40.399,-2.986,7.98
+Eleginus gracilis,Saffron cod,63.365,63.598,0.233,0.37,-23.593,-22.407,1.186,-5.03
+Enophrys diceraus,Antlered sculpin,64.109,64.402,0.293,0.46,-28.541,-22.767,5.774,-20.23
+Erimacrus isenbeckii,Hair crab,60.999,60.965,-0.034,-0.06,-34.532,-35.644,-1.112,3.22
+Eunoe depressa,Depressed scale worm,63.839,62.94,-0.899,-1.41,-35.805,-36.753,-0.948,2.65
+Eunoe nodosa,Giant scale worm,63.102,62.909,-0.193,-0.31,-50.032,-51.941,-1.909,3.82
+Evasterias echinosoma,Giant sea star,64.512,64.522,0.011,0.02,-26.001,-25.522,0.479,-1.84
+Gadus chalcogrammus,Walleye pollock,63.025,62.594,-0.432,-0.68,-41.923,-45.266,-3.344,7.98
+Gadus macrocephalus,Pacific cod,63.531,62.48,-1.051,-1.65,-40.728,-40.675,0.053,-0.13
+Gorgonocephalus eucnemis,Basket star,62.948,63.842,0.894,1.42,-41.823,-37.75,4.073,-9.74
+Gymnocanthus pistilliger,Threaded sculpin,63.97,63.014,-0.956,-1.49,-23.541,-23.771,-0.23,0.98
+Hexagrammos stelleri,Whitespotted greenling,63.015,62.162,-0.853,-1.35,-21.731,-22.969,-1.238,5.7
+Hippoglossoides elassodon and H. robustus,Flathead sole-bering flounder,62.796,62.63,-0.166,-0.26,-56.837,-54.478,2.359,-4.15
+Hippoglossus stenolepis,Pacific halibut,61.887,61.679,-0.208,-0.34,-27.75,-29.462,-1.712,6.17
+Hyas coarctatus,Arctic lyre crab,63.955,64.309,0.354,0.55,-37.904,-40.597,-2.693,7.1
+Labidochirus splendescens,Splendid hermit,63.109,63.274,0.165,0.26,-31.572,-31.583,-0.01,0.03
+Lepidopsetta sp.,Rock soles,62.147,61.841,-0.306,-0.49,-34.385,-41.329,-6.944,20.19
+Leptasterias (Hexasterias) polaris,Polar six-rayed star,63.721,63.682,-0.039,-0.06,-41.53,-40.749,0.781,-1.88
+Leptasterias arctica,Arctic star,63.95,63.906,-0.044,-0.07,-33.889,-36.56,-2.67,7.88
+Lethasterias nanimensis,Black spined sea star,64.284,64.294,0.01,0.01,-29.366,-30.943,-1.577,5.37
+Limanda aspera,Yellowfin sole,61.944,62.154,0.21,0.34,-32.712,-34.82,-2.108,6.44
+Limanda sakhalinensis,Sakhalin sole,62.722,62.874,0.152,0.24,-52.231,-51.319,0.913,-1.75
+Liparis gibbus,Variegated snailfish,63.453,63.511,0.057,0.09,-53.387,-51.496,1.891,-3.54
+Lumpenus fabricii,Slender eelblenny,64.061,64.096,0.035,0.05,-22.278,-21.313,0.965,-4.33
+Lycodes palearis,Wattled eelpout,62.301,62.527,0.227,0.36,-58.162,-43.135,15.027,-25.84
+Lycodes turneri,Polar eelpout,64.269,64.406,0.137,0.21,-31.839,-31.641,0.199,-0.62
+Mallotus villosus,Capelin,62.892,63.044,0.152,0.24,-42.544,-39.345,3.199,-7.52
+Myoxocephalus jaok,Plain sculpin,62.86,62.634,-0.226,-0.36,-27.782,-28.851,-1.068,3.85
+Myoxocephalus polyacanthocephalus,Great sculpin,63.642,63.354,-0.288,-0.45,-42.177,-43.037,-0.86,2.04
+Myoxocephalus scorpius,Shorthorn sculpin,64.516,64.511,-0.005,-0.01,-43.086,-42.682,0.404,-0.94
+Myzopsetta proboscidea,Longhead dab,62.196,61.83,-0.366,-0.59,-25.235,-24.18,1.055,-4.18
+Neptunea borealis,,62.971,62.393,-0.578,-0.92,-41.661,-45.823,-4.163,9.99
+Neptunea heros,Northern neptune whelk,62.84,62.976,0.136,0.22,-38.537,-37.543,0.993,-2.58
+Neptunea ventricosa,Fat whelk,63.781,63.702,-0.079,-0.12,-35.623,-34.766,0.857,-2.41
+Occella dodecaedron,Bering poacher,61.685,61.85,0.166,0.27,-20.813,-22.366,-1.553,7.46
+Ophiura sarsii,Notched brittle star,62.596,62.883,0.287,0.46,-51.288,-48.12,3.168,-6.18
+Osmerus mordax,Rainbow smelt,62.679,62.676,-0.003,0,-21.726,-21.353,0.374,-1.72
+Pagurus capillatus,Hairy hermit crab,63.092,63.287,0.195,0.31,-26.553,-27.026,-0.474,1.78
+Pagurus ochotensis,Alaskan hermit crab,62.082,62.492,0.411,0.66,-25.88,-25.336,0.544,-2.1
+Pagurus rathbuni,Longfinger hermit,62.525,62.909,0.384,0.61,-52.924,-52.377,0.547,-1.03
+Pagurus trigonocheirus,Fuzzy hermit,63.335,63.181,-0.154,-0.24,-36.858,-37.58,-0.722,1.96
+Pallasina barbata,Tubenose poacher,62.1,62.737,0.637,1.03,-20.614,-21.344,-0.73,3.54
+Pandalus goniurus,Humpy shrimp,63.89,64.419,0.529,0.83,-35.967,-29.798,6.169,-17.15
+Paralithodes camtschaticus,Red king crab,63.961,64.073,0.112,0.18,-23.686,-22.983,0.704,-2.97
+Paralithodes platypus,Blue king crab,64.274,64.242,-0.032,-0.05,-37.447,-38.064,-0.617,1.65
+Platichthys stellatus,Starry flounder,63.776,63.523,-0.253,-0.4,-23.017,-25.293,-2.276,9.89
+Pleuronectes quadrituberculatus,Alaska plaice,62.482,62.641,0.159,0.25,-39.147,-39.612,-0.465,1.19
+Podothecus accipenserinus,Sturgeon poacher,61.103,61.233,0.13,0.21,-35.19,-35.955,-0.764,2.17
+Podothecus veternus,Veteran poacher,64.031,64.448,0.417,0.65,-35.54,-31.613,3.928,-11.05
+Sclerocrangon boreas,Sculptured shrimp,64.374,64.258,-0.116,-0.18,-26.246,-29.485,-3.239,12.34
+Serripes notabilis,Oblique smoothcockle,63.472,64.028,0.556,0.88,-34.376,-26.147,8.229,-23.94
+Strongylocentrotus droebachiensis,Green sea urchin,63.752,63.959,0.207,0.32,-39.734,-35.564,4.171,-10.5
+Styela rustica,Sea potato,62.711,63.352,0.642,1.02,-36.078,-35.688,0.39,-1.08
+Telmessus cheiragonus,Helmet crab,64.017,64.278,0.261,0.41,-20.994,-21.653,-0.659,3.14
+Triglops pingelii,Ribbed sculpin,63.69,62.083,-1.607,-2.52,-36.208,-26.455,9.754,-26.94

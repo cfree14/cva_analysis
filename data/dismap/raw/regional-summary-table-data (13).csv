@@ -1,0 +1,103 @@
+Dataset: West Coast Annual,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Actinauge verrillii,Reticulate anemone,39.385,41.641,2.257,5.73,-847.766,-781.609,66.157,-7.8
+Actinostola faeculenta,Hobnail vase anemone,39.057,38.551,-0.507,-1.3,-786.613,-814.397,-27.784,3.53
+Albatrossia pectoralis,Giant grenadier,42.05,42.354,0.304,0.72,-1037.724,-1035.214,2.511,-0.24
+Alepocephalus tenebrosus,California slickhead,34.694,35.275,0.581,1.68,-983.29,-998.136,-14.846,1.51
+Alosa sapidissima,American shad,44.437,45.379,0.943,2.12,-117.729,-114.244,3.485,-2.96
+Anoplopoma fimbria,Sablefish,40.728,42.204,1.477,3.63,-625.054,-548.578,76.476,-12.24
+Anthoptilum grandiflorum,Feather boa sea pen,38.774,41.675,2.901,7.48,-890.928,-731.137,159.791,-17.94
+Antimora microlepis,Finescale mora,38.963,40.503,1.54,3.95,-1042.319,-1133.959,-91.641,8.79
+Apostichopus californicus,Giant california sea cucumber,34.368,34.746,0.379,1.1,-179.583,-282.405,-102.822,57.26
+Apostichopus leukothele,White-knobbed sea cucumber,43.122,43.209,0.087,0.2,-229.958,-264.031,-34.073,14.82
+Apristurus brunneus,Brown catshark,38.804,38.564,-0.24,-0.62,-747.59,-779.409,-31.819,4.26
+Atheresthes stomias,Arrowtooth flounder,46.295,46.013,-0.282,-0.61,-211.913,-226.426,-14.513,6.85
+Bathybembix bairdii,,37.072,38.895,1.823,4.92,-897.587,-929.414,-31.827,3.55
+Bathyraja spp.,Skate complex,41.074,41.928,0.854,2.08,-603.446,-648.65,-45.204,7.49
+Beringraja binoculata,Big skate,41.903,44.816,2.914,6.95,-138.515,-113.881,24.635,-17.78
+Beringraja inornata,California skate,37.518,38.363,0.845,2.25,-111.945,-99.546,12.399,-11.08
+Beringraja rhina,Longnose skate,41.91,42.174,0.263,0.63,-260.921,-316.144,-55.223,21.16
+Bothrocara brunneum,Twoline eelpout,40.753,40.003,-0.75,-1.84,-901.583,-878.132,23.451,-2.6
+Brisaster latifrons,Northern heart urchin,36.429,36.249,-0.18,-0.49,-478.543,-467.665,10.878,-2.27
+Careproctus melanurus,Blacktail snailfish,41.375,40.193,-1.183,-2.86,-610.771,-648.435,-37.664,6.17
+Chauliodus macouni,Pacific viperfish,43.235,45.219,1.984,4.59,-867.984,-897.072,-29.089,3.35
+Chionoecetes tanneri,Grooved tanner crab,41.591,38.362,-3.229,-7.76,-929.287,-860.627,68.66,-7.39
+Chorilia longipes,Longhorn decorator crab,34.145,39.697,5.552,16.26,-771.775,-594.047,177.727,-23.03
+Citharichthys sordidus,Pacific sanddab,41.309,42.645,1.336,3.23,-107.752,-106.338,1.414,-1.31
+Clupea pallasii,Pacific herring,38.44,42.675,4.236,11.02,-99.606,-99.163,0.443,-0.45
+Coryphaenoides acrolepis,Pacific grenadier,40.796,40.336,-0.461,-1.13,-1086.607,-1103.632,-17.024,1.57
+Crossaster borealis,Grooved sun star,37.628,36.923,-0.704,-1.87,-967.598,-980.584,-12.986,1.34
+Doryteuthis opalescens,California market squid,34.464,34.919,0.454,1.32,-231.914,-333.523,-101.609,43.81
+Echidnocerus foraminatus,Brown box crab,40.359,41.096,0.736,1.82,-230.013,-232.233,-2.22,0.97
+Eopsetta jordani,Petrale sole,41.737,43.172,1.435,3.44,-147.937,-162.764,-14.827,10.02
+Genyonemus lineatus,White croaker,36.864,37.224,0.36,0.98,-112.02,-77.338,34.682,-30.96
+Glyptocephalus zachirus,Rex sole,42.78,43.867,1.087,2.54,-238.554,-239.154,-0.601,0.25
+Heterozonias alternatus,Canonball sun star,39.48,40.78,1.301,3.3,-876.368,-884.992,-8.624,0.98
+Hippasteria californica,Californian spiny star,38.195,40.447,2.252,5.9,-904.937,-875.135,29.802,-3.29
+Hippasteria phrygiana,Arctic cushion star,41.842,44.107,2.265,5.41,-351.998,-344.798,7.199,-2.05
+Hippoglossoides elassodon,Flathead sole,47.159,47.171,0.012,0.03,-143.371,-153.831,-10.46,7.3
+Hippoglossus stenolepis,Pacific halibut,45.713,46.158,0.445,0.97,-158.525,-171.83,-13.305,8.39
+Hydrolagus colliei,Spotted ratfish,41.701,41.817,0.116,0.28,-213.994,-249.62,-35.626,16.65
+Icelinus filamentosus,Threadfin sculpin,44.035,44.278,0.243,0.55,-212.35,-195.497,16.853,-7.94
+Liponema brevicorne,Tentacle shedding anemone,36.828,36.944,0.116,0.32,-808.579,-693.423,115.156,-14.24
+Lithodes couesi,Scarlet king crab,35.009,34.446,-0.564,-1.61,-903.688,-934.805,-31.117,3.44
+Luidia foliolata,Gray sand star,42.282,43.775,1.493,3.53,-156.03,-193.727,-37.697,24.16
+Lycenchelys crotalinus,Snakehead eelpout,42.298,42.331,0.033,0.08,-966.063,-974.137,-8.074,0.84
+Lycodes cortezianus,Bigfin eelpout,40.505,41.781,1.276,3.15,-435.967,-402.329,33.638,-7.72
+Lycodes diapterus,Black eelpout,41.739,43.41,1.67,4,-515.356,-500.473,14.883,-2.89
+Lycodes pacificus,Blackbelly eelpout,39.217,42.548,3.331,8.49,-156.662,-158.799,-2.137,1.36
+Lyopsetta exilis,Slender sole,43.64,44.918,1.278,2.93,-186.669,-187.428,-0.759,0.41
+Mediaster aequalis,Vermillion star,40.213,41.881,1.669,4.15,-240.17,-321.335,-81.166,33.8
+Merluccius productus,Pacific hake,43.361,41.224,-2.137,-4.93,-170.65,-277.37,-106.72,62.54
+Metacarcinus magister,Dungeness crab,43.178,44.424,1.247,2.89,-99.815,-100.052,-0.238,0.24
+Metridium farcimen,Giant plumose anemone,40.082,40.912,0.83,2.07,-159.89,-115.264,44.627,-27.91
+Microstomus bathybius,Deep-sea sole,41.388,41.558,0.17,0.41,-970.148,-982.46,-12.312,1.27
+Microstomus pacificus,Dover sole,41.699,41.568,-0.132,-0.32,-450.619,-508.9,-58.281,12.93
+Molpadia intermedia,Sweet potato sea cucumber,36.151,35.876,-0.275,-0.76,-601.853,-593.978,7.875,-1.31
+Myxoderma platyacanthum,,36.348,35.735,-0.612,-1.68,-561.332,-552.932,8.4,-1.5
+Nearchaster (Nearchaster) aciculosus,Needle spined fragile star,36.475,38.478,2.003,5.49,-1031.335,-1079.973,-48.638,4.72
+Neptunea amianta,White neptune,41.224,42.12,0.896,2.17,-878.49,-658.4,220.091,-25.05
+Nezumia stelgidolepis,California grenadier,33.566,34.619,1.053,3.14,-657.568,-660.893,-3.325,0.51
+Octopoteuthis deletron,Octopus squid,41.04,40.932,-0.108,-0.26,-807.571,-811.879,-4.308,0.53
+Ophiodon elongatus,Lingcod,41.81,44.882,3.071,7.35,-213.605,-224.315,-10.71,5.01
+Opisthoteuthis californiana,Flapjack octopus,39.833,40.363,0.53,1.33,-722.284,-720.016,2.268,-0.31
+Pandalus jordani,Ocean shrimp,44.705,45.01,0.304,0.68,-166.134,-173.101,-6.967,4.19
+Pandalus platyceros,Spot shrimp,39.708,36.693,-3.015,-7.59,-317.255,-273.788,43.468,-13.7
+Parmaturus xaniurus,Filetail catshark,34.575,34.873,0.298,0.86,-521.138,-555.764,-34.626,6.64
+Parophrys vetulus,English sole,42.03,43.274,1.244,2.96,-133.621,-143.046,-9.424,7.05
+Pasiphaea pacifica,Pacific glass shrimp,42.537,39.065,-3.472,-8.16,-282.017,-521.783,-239.766,85.02
+Pasiphaea tarda,Crimson pasiphaeid,35.1,34.825,-0.275,-0.78,-924.853,-892.203,32.649,-3.53
+Platymera gaudichaudii,Armed box crab,35.997,34.714,-1.283,-3.56,-273.406,-328.058,-54.653,19.99
+Pleurobranchaea californica,,35.385,35.946,0.561,1.59,-201.2,-190.691,10.509,-5.22
+Pleuronichthys decurrens,Curlfin sole,39.134,38.731,-0.403,-1.03,-106.574,-134.91,-28.336,26.59
+Porichthys notatus,Plainfin midshipman,37.22,37.593,0.373,1,-161.765,-154.098,7.668,-4.74
+Pseudostichopus mollis,Sandy sea cucumber,37.923,41.291,3.367,8.88,-790.56,-647.791,142.769,-18.06
+Rathbunaster californicus,California sun star,38.98,38.975,-0.004,-0.01,-240.336,-326.786,-86.449,35.97
+Rossia pacifica,Eastern pacific bobtail,41.273,43.092,1.82,4.41,-154.237,-253.121,-98.884,64.11
+Sagenaster evermanni,Evermann's star,35.836,37.911,2.075,5.79,-947.485,-945.177,2.308,-0.24
+Sebastes alutus,Pacific ocean perch,47.009,46.519,-0.489,-1.04,-359.587,-309.387,50.2,-13.96
+Sebastes aurora,Aurora rockfish,36.044,36.447,0.403,1.12,-526.416,-580.68,-54.265,10.31
+Sebastes babcocki,Redbanded rockfish,45.433,45.564,0.131,0.29,-300.846,-279.594,21.252,-7.06
+Sebastes chlorostictus,Greenspotted rockfish,36.853,38.409,1.555,4.22,-206.445,-197.81,8.635,-4.18
+Sebastes crameri,Darkblotched rockfish,44.784,44.465,-0.319,-0.71,-309.153,-308.947,0.205,-0.07
+Sebastes diploproa,Splitnose rockfish,39.095,38.363,-0.732,-1.87,-322.464,-333.688,-11.224,3.48
+Sebastes elongatus,Greenstriped rockfish,44.379,44.003,-0.376,-0.85,-191.287,-201.465,-10.178,5.32
+Sebastes flavidus,Yellowtail rockfish,47.036,47.418,0.383,0.81,-243.146,-175.178,67.967,-27.95
+Sebastes goodei,Chilipepper rockfish,38.224,38.49,0.266,0.7,-234.331,-267.98,-33.649,14.36
+Sebastes helvomaculatus,Rosethorn rockfish,43.224,44.869,1.646,3.81,-261.11,-247.443,13.667,-5.23
+Sebastes jordani,Shortbelly rockfish,36.658,39.451,2.793,7.62,-240.937,-233.151,7.786,-3.23
+Sebastes paucispinis,Bocaccio,37.11,39.495,2.385,6.43,-272.035,-258.386,13.649,-5.02
+Sebastes pinniger,Canary rockfish,44.943,45.089,0.147,0.33,-180.291,-175.728,4.563,-2.53
+Sebastes saxicola,Stripetail rockfish,38.188,40.288,2.099,5.5,-264.333,-256.937,7.396,-2.8
+Sebastes semicinctus,Halfbanded rockfish,34.217,34.451,0.234,0.68,-250.035,-169.594,80.44,-32.17
+Sebastes zacentrus,Sharpchin rockfish,43.697,45.086,1.389,3.18,-239.988,-279.076,-39.088,16.29
+Sebastolobus alascanus,Shortspine thornyhead,38.833,40.6,1.767,4.55,-725.412,-683.872,41.54,-5.73
+Sebastolobus altivelis,Longspine thornyhead,39.575,39.768,0.193,0.49,-899.931,-925.77,-25.839,2.87
+Squalus suckleyi,Pacific spiny dogfish,45.016,43.492,-1.524,-3.39,-180.06,-175.508,4.551,-2.53
+Stylasterias forreri,Velcro star,45.139,41.58,-3.559,-7.88,-179.865,-275.479,-95.614,53.16
+Talismania bifurcata,Threadfin slickhead,35.005,37.536,2.531,7.23,-883.83,-858.817,25.013,-2.83
+Thrissacanthias penicillatus,,36.19,37.597,1.407,3.89,-972.195,-923.904,48.292,-4.97
+Tritonia tetraquetra,Large orange peel nudibranch,40.372,39.208,-1.163,-2.88,-465.068,-647.465,-182.397,39.22
+Zalembius rosaceus,Pink seaperch,35.497,36.498,1.001,2.82,-192.873,-155.897,36.976,-19.17
+Zaniolepis latipinnis,Longspine combfish,35.895,36.989,1.094,3.05,-171.365,-123.71,47.654,-27.81

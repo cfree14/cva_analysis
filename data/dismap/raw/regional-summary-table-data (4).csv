@@ -1,0 +1,131 @@
+Dataset: Gulf of Mexico ,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Acanthostracion quadricornis,Scrawled cowfish,27.273,27.28,0.007,0.03,-24.078,-24.944,-0.866,3.6
+Achelous gibbesii,Iridescent swimming crab,28.086,26.483,-1.603,-5.71,-27.831,-10.333,17.498,-62.87
+Achelous spinicarpus,Longspine swimming crab,27.649,27.65,0.001,0,-61.25,-64.343,-3.093,5.05
+Achelous spinimanus,Blotched swimming crab,26.843,25.628,-1.216,-4.53,-24.533,-6.123,18.411,-75.04
+Aluterus schoepfii,Orange filefish,27.679,27.303,-0.375,-1.36,-23.592,-26.595,-3.003,12.73
+Anasimus latus,Stilt spider crab,27.717,27.429,-0.288,-1.04,-72.41,-65.36,7.05,-9.74
+Anchoa hepsetus,Striped anchovy,28.681,28.568,-0.113,-0.39,-28.826,-29.671,-0.846,2.93
+Ancylopsetta quadrocellata,Ocellated flounder,28.559,28.848,0.289,1.01,-27.057,-29.709,-2.652,9.8
+Balistes capriscus,Gray triggerfish,28.169,28.248,0.078,0.28,-29.892,-31.722,-1.83,6.12
+Bellator militaris,Horned searobin,27.112,26.87,-0.242,-0.89,-64.24,-56.93,7.31,-11.38
+Bothus robinsi,Twospot flounder,26.539,26.349,-0.19,-0.72,-21.181,-23.864,-2.682,12.66
+Calamus proridens,Littlehead porgy,27.936,27.931,-0.006,-0.02,-23.469,-24.587,-1.118,4.76
+Calappa sulcata,Yellow box crab,27.937,27.952,0.015,0.05,-51.318,-54.906,-3.588,6.99
+Callinectes sapidus,Blue crab,28.678,28.84,0.162,0.57,-24.292,-23.608,0.685,-2.82
+Callinectes similis,Lesser blue crab,28.062,28.084,0.022,0.08,-28.702,-24.041,4.661,-16.24
+Centropristis ocyurus,Bank sea bass,28.412,29.531,1.119,3.94,-49.401,-47.329,2.073,-4.2
+Centropristis philadelphica,Rock sea bass,28.419,28.197,-0.221,-0.78,-60.602,-60.795,-0.193,0.32
+Chaetodon ocellatus,Spotfin butterflyfish,27.198,27.374,0.176,0.65,-35.463,-44.349,-8.886,25.06
+Chilomycterus schoepfii,Striped burrfish,28.655,28.826,0.171,0.6,-35.016,-46.901,-11.885,33.94
+Chloroscombrus chrysurus,Atlantic bumper,28.825,28.836,0.011,0.04,-16.245,-19.105,-2.86,17.61
+Citharichthys macrops,Spotted whiff,27.422,27.92,0.498,1.82,-19.125,-23.358,-4.234,22.14
+Citharichthys spilopterus,Bay whiff,28.857,28.532,-0.325,-1.13,-32.721,-27.16,5.561,-17
+Cyclopsetta chittendeni,Mexican flounder,28.191,27.644,-0.547,-1.94,-45.919,-49.697,-3.778,8.23
+Cyclopsetta fimbriata,Spotfin flounder,27.128,27.174,0.046,0.17,-29.135,-39.844,-10.709,36.76
+Cynoscion arenarius,Sand weakfish,28.829,28.614,-0.215,-0.75,-38.329,-41.335,-3.006,7.84
+Cynoscion nothus,Silver seatrout,28.481,28.609,0.128,0.45,-21.581,-22.388,-0.807,3.74
+Decapterus punctatus,Round scad,28.337,28.161,-0.176,-0.62,-19.209,-30.501,-11.291,58.78
+Diplectrum bivittatum,Dwarf sand perch,27.911,28.498,0.587,2.1,-27.174,-24.532,2.643,-9.72
+Diplectrum formosum,Sand perch,27.538,27.496,-0.042,-0.15,-23.346,-21.389,1.957,-8.38
+Doryteuthis sp,Inshore Squid sp.,27.959,27.521,-0.438,-1.57,-45.378,-43.054,2.324,-5.12
+Epinephelus morio,Red grouper,26.966,26.96,-0.006,-0.02,-24.038,-29.632,-5.594,23.27
+Eques lanceolatus,Jackknife-fish,27.373,27.344,-0.028,-0.1,-25.562,-31.221,-5.659,22.14
+Etropus crossotus,Fringed flounder,28.527,28.672,0.145,0.51,-26.615,-20.348,6.267,-23.55
+Eucidaris tribuloides,Slate pencil urchin,26.452,26.87,0.417,1.58,-25.478,-39.198,-13.72,53.85
+Eucinostomus gula,Silver jenny,25.481,28.256,2.775,10.89,-3.672,-23.608,-19.935,542.83
+Euvola marensis,Paper scallop,28.136,28.178,0.042,0.15,-71.606,-62.114,9.492,-13.26
+Fowlerichthys radiosus,Singlespot frogfish,28.302,28.11,-0.192,-0.68,-63.893,-79.333,-15.44,24.17
+Gymnothorax saxicola,Honeycomb moray,27.414,27.06,-0.355,-1.29,-46.44,-56.243,-9.803,21.11
+Haemulon aurolineatum,Tomtate grunt,27.185,28.067,0.882,3.25,-24.453,-25.268,-0.814,3.33
+Haemulon plumierii,White grunt,26.429,26.22,-0.208,-0.79,-7.4,-7.845,-0.444,6.01
+Halieutichthys sp,Batfishes,27.788,27.451,-0.336,-1.21,-66.163,-58.406,7.758,-11.73
+Harengula jaguana,Scaled sardine,28.469,28.641,0.171,0.6,-28.401,-38.804,-10.402,36.63
+Hippocampus erectus,Lined seahorse,26.981,25.944,-1.037,-3.84,-41.909,-21.343,20.567,-49.07
+Kathetostoma albigutta,Lancer stargazer,27.685,28.232,0.547,1.98,-78.136,-71.592,6.544,-8.38
+Lagocephalus laevigatus,Smooth puffer,28.087,28.044,-0.043,-0.15,-39.175,-37.582,1.592,-4.06
+Lagodon rhomboides,Pinfish,26.451,27.753,1.303,4.92,-13.583,-35.764,-22.181,163.3
+Larimus fasciatus,Banded drum,28.319,27.856,-0.463,-1.64,-20.52,-19.719,0.801,-3.9
+Leiolambrus nitidus,White elbow crab,28.268,27.716,-0.551,-1.95,-61.137,-46.842,14.295,-23.38
+Leiostomus xanthurus,Spot,28.912,28.895,-0.016,-0.06,-29.507,-27.696,1.811,-6.14
+Lepophidium brevibarbe,Blackedge cusk-eel,28.055,28.168,0.113,0.4,-50.263,-50.419,-0.156,0.31
+Lepophidium jeannae,Mottled cusk-eel,27.437,27.457,0.019,0.07,-51.522,-53.403,-1.881,3.65
+Lolliguncula brevis,Atlantic brief squid,28.655,28.587,-0.068,-0.24,-19.594,-20.322,-0.728,3.71
+Luidia clathrata,Lined sea star,29.129,28.257,-0.872,-2.99,-16.93,-25.949,-9.019,53.27
+Lutjanus campechanus,Red snapper,28.396,28.158,-0.239,-0.84,-54.267,-49.942,4.325,-7.97
+Lutjanus griseus,Gray snapper,26.615,26.789,0.174,0.66,-22.641,-29.271,-6.63,29.28
+Lutjanus synagris,Lane snapper,25.799,26.303,0.503,1.95,-11.872,-16.217,-4.345,36.6
+Metapenaeopsis goodei,Caribbean velvet shrimp,27.259,27.377,0.118,0.43,-30.249,-45.659,-15.411,50.95
+Micropogonias undulatus,Atlantic croaker,28.892,28.836,-0.056,-0.19,-26.063,-26.38,-0.317,1.22
+Monacanthus ciliatus,Fringed filefish,26.313,25.705,-0.608,-2.31,-28.49,-12.659,15.831,-55.57
+Moreiradromia antillensis,Hairy sponge crab,27.716,26.268,-1.448,-5.22,-24.703,-20.368,4.334,-17.55
+Mullus auratus,Red goatfish,28.449,26.619,-1.83,-6.43,-75.552,-37.958,37.594,-49.76
+Nicholsina usta,Emerald parrotfish,26.894,26.491,-0.404,-1.5,-14.252,-9.427,4.825,-33.85
+Ogcocephalus declivirostris,Slantbrow batfish,27.69,27.509,-0.181,-0.65,-61.81,-56.578,5.232,-8.46
+Ogcocephalus parvus,Roughback batfish,27.681,26.873,-0.808,-2.92,-37.397,-48.322,-10.925,29.21
+Ophidion holbrookii,Bank cusk-eel,27.589,27.842,0.252,0.92,-30.046,-28.537,1.509,-5.02
+Ophiolepis elegans,Elegant brittle star,29.025,28.478,-0.547,-1.88,-33.984,-30.515,3.468,-10.21
+Opisthonema oglinum,Atlantic thread herring,28.587,28.278,-0.309,-1.08,-18.323,-18.556,-0.233,1.27
+Orthopristis chrysoptera,Pigfish,26.653,27.407,0.754,2.83,-12.108,-17.154,-5.047,41.68
+Pareques umbrosus,Cubbyu,27.704,27.678,-0.026,-0.09,-37.117,-44.845,-7.728,20.82
+Penaeus aztecus,Brown shrimp,28.047,28.06,0.013,0.05,-43.46,-46.293,-2.833,6.52
+Penaeus duorarum,Pink shrimp,27.031,26.434,-0.597,-2.21,-17.755,-15.009,2.746,-15.46
+Penaeus setiferus,Northern white shrimp,28.734,29.043,0.31,1.08,-16.624,-15.828,0.796,-4.79
+Peprilus burti,Gulf butterfish,28.737,27.985,-0.752,-2.62,-37.955,-54.031,-16.076,42.35
+Pitarenus cordatus,Corded pitar,27.601,27.53,-0.071,-0.26,-58.475,-55.653,2.821,-4.82
+Platylambrus granulatus,Bladetooth elbow crab,28.592,28.095,-0.497,-1.74,-35.574,-39.704,-4.13,11.61
+Porichthys plectrodon,Atlantic midshipman,27.724,27.794,0.071,0.26,-49.772,-49.584,0.188,-0.38
+Prionotus alatus,Spiny searobin,26.56,27.025,0.465,1.75,-53.331,-70.687,-17.356,32.54
+Prionotus longispinosus,Bigeye searobin,28.565,28.195,-0.37,-1.29,-44.007,-49.868,-5.862,13.32
+Prionotus ophryas,Bandtail searobin,27.33,26.537,-0.793,-2.9,-32.02,-28.077,3.943,-12.32
+Prionotus paralatus,Mexican searobin,27.869,27.961,0.091,0.33,-82.665,-75.015,7.649,-9.25
+Prionotus roseus,Bluespotted searobin,28.489,26.744,-1.745,-6.12,-36.252,-35.163,1.089,-3
+Prionotus rubio,Blackwing searobin,29.343,29.585,0.242,0.82,-40.941,-32.523,8.418,-20.56
+Prionotus stearnsi,Shortwing searobin,27.403,28.084,0.681,2.49,-70.971,-77.774,-6.803,9.59
+Pristipomoides aquilonaris,Wenchman,27.727,27.813,0.086,0.31,-78.725,-77.214,1.511,-1.92
+Raninoides louisianensis,Gulf frog crab,27.622,28.037,0.416,1.5,-78.459,-72.709,5.75,-7.33
+Renilla muelleri,Mueller's sea pansy,28.175,27.868,-0.307,-1.09,-20.767,-20.341,0.426,-2.05
+Rhizoprionodon terraenovae,Atlantic sharpnose shark,27.933,28.709,0.776,2.78,-29.588,-33.047,-3.459,11.69
+Rhomboplites aurorubens,Vermilion snapper,27.546,26.922,-0.624,-2.27,-41.407,-53.307,-11.9,28.74
+Rostroraja eglanteria,Clearnose skate,28.311,27.957,-0.355,-1.25,-48.808,-59.067,-10.259,21.02
+Rostroraja texana,Roundel skate,27.866,27.749,-0.117,-0.42,-57.885,-67.234,-9.349,16.15
+Sardinella aurita,Spanish sardine,27.472,27.589,0.116,0.42,-19.334,-26.665,-7.331,37.92
+Saurida brasiliensis,Largescale lizardfish,28.237,27.861,-0.377,-1.33,-49.414,-49.957,-0.542,1.1
+Saurida normani,Shortjaw lizardfish,27.318,27.169,-0.148,-0.54,-86.933,-75.879,11.055,-12.72
+Scorpaena agassizii,Longfin scorpionfish,26.306,26.357,0.05,0.19,-55.412,-58.164,-2.752,4.97
+Scorpaena brasiliensis,Barbfish,27.08,26.511,-0.569,-2.1,-33.247,-36.434,-3.188,9.59
+Scorpaena calcarata,Smoothhead scorpionfish,27.271,27.069,-0.202,-0.74,-33.594,-38.868,-5.273,15.7
+Scyllarides nodifer,Ridged slipper lobster,27.997,27.833,-0.164,-0.59,-36.226,-37.204,-0.978,2.7
+Scyllarus chacei,Chace slipper lobster,28.056,27.401,-0.655,-2.33,-39.03,-41.817,-2.786,7.14
+Selene setapinnis,Atlantic moonfish,28.292,28.129,-0.163,-0.58,-41.233,-38.234,2.998,-7.27
+Serranus atrobranchus,Blackear bass,27.616,27.764,0.148,0.54,-70.916,-68.545,2.371,-3.34
+Serranus notospilus,Saddle bass,27.87,26.972,-0.897,-3.22,-57.142,-59.779,-2.638,4.62
+Serranus phoebe,Tattler,26.428,27.532,1.104,4.18,-29.101,-46.835,-17.734,60.94
+Sicyonia brevirostris,Brown rock shrimp,28.182,27.868,-0.313,-1.11,-39.156,-43.665,-4.51,11.52
+Sicyonia dorsalis,Lesser rock shrimp,27.97,28.064,0.094,0.34,-42.216,-35.581,6.636,-15.72
+Solenocera atlantidis,Dwarf humpback shrimp,27.517,27.147,-0.37,-1.35,-40.308,-44.3,-3.992,9.9
+Solenocera vioscai,Humpback shrimp,28.022,27.897,-0.125,-0.45,-68.408,-74.352,-5.944,8.69
+Sphoeroides dorsalis,Marbled puffer,27.085,26.326,-0.759,-2.8,-49.74,-38.68,11.061,-22.24
+Sphoeroides parvus,Least puffer,28.179,28.551,0.372,1.32,-28.578,-31.8,-3.222,11.27
+Sphoeroides spengleri,Bandtail puffer,26.833,26.063,-0.77,-2.87,-28.006,-16.632,11.374,-40.61
+Squilla chydaea,Offshore mantis shrimp,28.235,27.707,-0.527,-1.87,-59.79,-67.634,-7.844,13.12
+Squilla empusa,Mantis shrimp,28.45,28.643,0.193,0.68,-28.241,-23.214,5.027,-17.8
+Stenorhynchus seticornis,Yellowline arrow crab,27.95,28.217,0.267,0.96,-54.115,-58.287,-4.172,7.71
+Stenotomus caprinus,Longspine porgy,28.575,28.375,-0.2,-0.7,-55.029,-56.306,-1.277,2.32
+Stephanolepis hispida,Planehead filefish,27.216,26.898,-0.319,-1.17,-22.556,-24.484,-1.928,8.55
+Stylocidaris affinis,Pencil urchin,26.105,28.136,2.031,7.78,-36.752,-51.54,-14.788,40.24
+Syacium gunteri,Shoal flounder,27.949,28.004,0.055,0.2,-32.264,-32.773,-0.51,1.58
+Syacium papillosum,Dusky flounder,27.254,26.966,-0.288,-1.06,-45.065,-45.73,-0.665,1.47
+Symphurus diomedeanus,Spottedfin tonguefish,27.592,26.52,-1.072,-3.89,-40.737,-27.271,13.466,-33.06
+Synodus foetens,Inshore lizardfish,27.965,28.133,0.168,0.6,-40.34,-35.751,4.589,-11.38
+Synodus intermedius,Sand diver,27.379,28.022,0.643,2.35,-40.734,-29.042,11.692,-28.7
+Synodus poeyi,Offshore lizardfish,27.26,26.73,-0.53,-1.94,-39.544,-37.015,2.528,-6.39
+Trachinocephalus myops,Snakefish,27.101,26.897,-0.204,-0.75,-49.673,-51.141,-1.468,2.96
+Trachurus lathami,Rough scad,28.189,27.706,-0.482,-1.71,-55.96,-61.681,-5.721,10.22
+Trichiurus lepturus,Atlantic cutlassfish,28.57,28.294,-0.276,-0.97,-34.884,-38.499,-3.615,10.36
+Trichopsetta ventralis,Sash flounder,27.772,27.768,-0.004,-0.01,-82.95,-80.806,2.144,-2.58
+Upeneus parvus,Dwarf goatfish,27.74,27.788,0.048,0.17,-68.755,-66.775,1.981,-2.88
+Urophycis floridana,Southern hake,27.873,27.702,-0.171,-0.62,-73.809,-84.681,-10.872,14.73
+Xyrichtys novacula,Pearly razorfish,29.06,28.181,-0.879,-3.03,-34.229,-38.496,-4.267,12.47

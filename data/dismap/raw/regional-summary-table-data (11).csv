@@ -1,0 +1,63 @@
+Dataset: Southeast US Spring,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Achelous gibbesii,Iridescent swimming crab,33.051,33.381,0.329,1,-10.572,-11.249,-0.677,6.4
+Achelous spinimanus,Blotched swimming crab,33.451,33.935,0.484,1.45,-11.068,-11.208,-0.14,1.26
+Anchoa spp.,Anchovies,33.332,33.263,-0.069,-0.21,-11.838,-11.232,0.606,-5.12
+Ancylopsetta quadrocellata,Ocellated flounder,32.267,32.032,-0.235,-0.73,-10.194,-9.557,0.636,-6.24
+Bairdiella chrysoura,Silver perch,30.709,30.724,0.016,0.05,-13.538,-13.063,0.475,-3.51
+Brevoortia tyrannus,Atlantic menhaden,31.302,31.248,-0.053,-0.17,-9.839,-12.613,-2.774,28.19
+Callinectes similis,Lesser blue crab,31.79,32.051,0.261,0.82,-9.994,-10.015,-0.021,0.21
+Centropristis striata,Black sea bass,33.806,34.027,0.221,0.65,-11.25,-10.686,0.565,-5.02
+Chaetodipterus faber,Atlantic spadefish,31.207,29.821,-1.386,-4.44,-10.059,-14.192,-4.133,41.09
+Chilomycterus schoepfii,Striped burrfish,33.459,34.422,0.963,2.88,-11.596,-13.241,-1.645,14.18
+Chloroscombrus chrysurus,Atlantic bumper,30.318,29.383,-0.935,-3.08,-13.583,-16.022,-2.438,17.95
+Citharichthys macrops,Spotted whiff,32.918,32.515,-0.403,-1.22,-10.796,-10.229,0.566,-5.25
+Cynoscion nothus,Silver seatrout,29.964,30.459,0.496,1.65,-14.48,-13.319,1.161,-8.02
+Cynoscion regalis,Weakfish,34.022,32.956,-1.067,-3.13,-12.612,-11.65,0.962,-7.63
+Doryteuthis sp,Inshore Squid sp.,33.325,33.299,-0.026,-0.08,-11.639,-11.509,0.13,-1.12
+Etropus crossotus,Fringed flounder,31.778,32.196,0.419,1.32,-12,-10.171,1.829,-15.25
+Gibbesia neglecta,Lesser mantis shrimp,31.319,32.993,1.674,5.35,-11.318,-11.636,-0.318,2.81
+Gymnura micrura,Smooth butterfly ray,30.011,32.134,2.123,7.07,-15.357,-12.596,2.761,-17.98
+Hepatus epheliticus,Calico box crab,31.433,31.775,0.342,1.09,-10.503,-10.215,0.289,-2.75
+Hypanus say,Bluntnose stingray,33.586,34.568,0.982,2.92,-11.371,-12.647,-1.276,11.22
+Lagodon rhomboides,Pinfish,33.88,34.145,0.265,0.78,-12.607,-12.725,-0.117,0.93
+Larimus fasciatus,Banded drum,30.026,31.281,1.255,4.18,-14.61,-12.037,2.573,-17.61
+Leiostomus xanthurus,Spot,32.271,31.561,-0.71,-2.2,-12.504,-11.865,0.639,-5.11
+Lolliguncula brevis,Atlantic brief squid,32.125,32.141,0.016,0.05,-10.559,-10.37,0.189,-1.79
+Menticirrhus americanus,Southern kingfish,31.712,33.096,1.384,4.36,-11.962,-11.273,0.689,-5.76
+Menticirrhus littoralis,Gulf kingfish,29.43,29.954,0.524,1.78,-16.744,-15.097,1.647,-9.84
+Micropogonias undulatus,Atlantic croaker,31.883,33.199,1.316,4.13,-13.318,-12.459,0.859,-6.45
+Myliobatis freminvillei,Bullnose eagle ray,34.087,34.209,0.122,0.36,-11.858,-12.352,-0.494,4.16
+Opisthonema oglinum,Atlantic thread herring,31.158,31.309,0.151,0.49,-11.616,-11.118,0.497,-4.28
+Orthopristis chrysoptera,Pigfish,32.683,34.418,1.736,5.31,-13.952,-12.033,1.919,-13.75
+Ovalipes ocellatus,Ocellate lady crab,31.846,32.042,0.197,0.62,-9.026,-9.014,0.013,-0.14
+Ovalipes stephensoni,Coarsehand lady crab,32.726,32.649,-0.077,-0.23,-10.437,-10.666,-0.229,2.2
+Pagurus pollicaris,Gray hermit crab,31.541,32.414,0.873,2.77,-9.788,-9.322,0.466,-4.76
+Paralichthys dentatus,Summer flounder,33.981,34.224,0.243,0.72,-12.407,-11.418,0.989,-7.97
+Paralichthys lethostigma,Southern flounder,32.329,32.894,0.566,1.75,-11.234,-10.966,0.268,-2.39
+Penaeus duorarum,Pink shrimp,33.784,34.382,0.598,1.77,-11.597,-11.81,-0.212,1.83
+Penaeus setiferus,Northern white shrimp,31.548,32.027,0.479,1.52,-9.308,-11.785,-2.476,26.6
+Peprilus paru,Harvestfish,32.717,32.655,-0.063,-0.19,-11.74,-10.989,0.751,-6.4
+Peprilus triacanthus,American butterfish,33.874,33.042,-0.832,-2.46,-11.388,-9.197,2.191,-19.24
+Persephona mediterranea,Mottled purse crab,31.117,31.629,0.512,1.64,-12.319,-11.071,1.248,-10.13
+Pomatomus saltatrix,Bluefish,33.633,33.816,0.184,0.55,-11.58,-10.729,0.851,-7.35
+Prionotus carolinus,Northern searobin,32.771,32.447,-0.324,-0.99,-10.97,-9.732,1.238,-11.29
+Prionotus evolans,Striped searobin,34.02,33.971,-0.049,-0.14,-11.931,-11.803,0.128,-1.07
+Prionotus scitulus,Leopard searobin,33.368,33.608,0.24,0.72,-11.346,-10.571,0.776,-6.84
+Prionotus tribulus,Bighead searobin,32.14,31.923,-0.218,-0.68,-11.889,-10.503,1.387,-11.66
+Rhinoptera bonasus,Cownose ray,30.667,33.275,2.608,8.5,-13.114,-9.932,3.181,-24.26
+Rhizoprionodon terraenovae,Atlantic sharpnose shark,31.944,32.207,0.263,0.82,-10.277,-11.219,-0.942,9.16
+Rostroraja eglanteria,Clearnose skate,34.185,34.494,0.309,0.9,-11.503,-12.077,-0.574,4.99
+Scomberomorus maculatus,Spanish mackerel,30.955,31.453,0.498,1.61,-12.215,-11.271,0.945,-7.73
+Scophthalmus aquosus,Windowpane flounder,33.886,33.86,-0.026,-0.08,-12.225,-11.597,0.628,-5.14
+Selene setapinnis,Atlantic moonfish,29.408,30,0.592,2.01,-15.723,-14.662,1.061,-6.75
+Sphoeroides maculatus,Northern puffer,34.62,34.872,0.252,0.73,-9.576,-13.376,-3.8,39.68
+Sphyrna tiburo,Bonnethead,30.08,30.92,0.84,2.79,-14.424,-12.047,2.377,-16.48
+Squilla empusa,Mantis shrimp,32.255,32.074,-0.181,-0.56,-10.13,-9.267,0.863,-8.51
+Stellifer lanceolatus,Star drum,31.801,31.008,-0.794,-2.5,-9.362,-12.367,-3.005,32.09
+Symphurus plagiusa,Blackcheek tonguefish,34.105,32.108,-1.996,-5.85,-7.509,-8.602,-1.093,14.56
+Synodus foetens,Inshore lizardfish,33.364,33.182,-0.182,-0.55,-12.375,-11.814,0.56,-4.53
+Trichiurus lepturus,Atlantic cutlassfish,31.374,31.75,0.376,1.2,-11.028,-11.729,-0.701,6.36
+Trinectes maculatus,Hogchoker,31.393,31.878,0.485,1.54,-12.302,-11.327,0.975,-7.93
+Urophycis regia,Spotted hake,33.645,33.125,-0.521,-1.55,-9.885,-10.239,-0.354,3.58

@@ -1,0 +1,10 @@
+Dataset: Hawai'i Islands ,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Aphareus rutilans,Lehi,21.241,21.044,-0.197,-0.93,-196.723,-157.569,39.154,-19.9
+Etelis carbunculus,Ehu,20.801,20.43,-0.371,-1.79,-246.462,-246.749,-0.288,0.12
+Etelis coruscans,Onaga,21.023,20.983,-0.04,-0.19,-278.903,-272.198,6.705,-2.4
+Hyporthodus quernus,Hapu'upu'u,21.074,20.778,-0.296,-1.4,-204.549,-193.765,10.785,-5.27
+Pristipomoides filamentosus,Opakapaka,20.842,20.585,-0.257,-1.23,-189.194,-168.067,21.127,-11.17
+Pristipomoides sieboldii,Kalekale,20.373,20.586,0.213,1.05,-215.901,-224.182,-8.281,3.84
+Pristipomoides zonatus,Gindai,21.074,20.912,-0.162,-0.77,-205.455,-219.689,-14.234,6.93

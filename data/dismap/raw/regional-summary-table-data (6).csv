@@ -1,0 +1,44 @@
+Dataset: Northeast US Spring,,,,,,,,,
+,,,,,,,,,
+Species Scientific Name,Common Name,Avg Cog Lat Start,Avg Cog Lat End,Diff in COG Lat,%Change in COG Lat,Avg Cog Depth Start,Avg Cog Depth End,Diff in COG Depth,%Change in COG Depth 
+Alosa aestivalis,Blueback herring,38.693,41.196,2.503,6.47,-41.247,-107.337,-66.09,160.23
+Alosa pseudoharengus,Alewife,40.516,42.242,1.727,4.26,-80.069,-160.192,-80.123,100.07
+Alosa sapidissima,American shad,40.205,41.941,1.736,4.32,-99.278,-154.431,-55.152,55.55
+Amblyraja radiata,Thorny skate,42.607,42.737,0.13,0.31,-164.279,-155.803,8.476,-5.16
+Anarhichas lupus,Atlantic wolffish,41.841,42.1,0.259,0.62,-94.395,-124.308,-29.913,31.69
+Cancer irroratus,Atlantic rock crab,39.018,41.088,2.07,5.31,-37.154,-46.743,-9.589,25.81
+Centropristis striata,Black sea bass,37.121,39.371,2.25,6.06,-85.698,-81.819,3.88,-4.53
+Clupea harengus,Atlantic herring,40.796,42.044,1.248,3.06,-49.345,-110.645,-61.3,124.23
+Doryteuthis pealeii,Longfin inshore squid,38.479,38.486,0.007,0.02,-101.619,-121.552,-19.933,19.61
+Gadus morhua,Atlantic cod,41.758,42.09,0.332,0.79,-84.44,-83.961,0.479,-0.57
+Glyptocephalus cynoglossus,Witch flounder,43.069,43.028,-0.04,-0.09,-148.791,-165.501,-16.71,11.23
+Hemitripterus americanus,Sea raven,41.55,42.05,0.5,1.2,-81.912,-92.134,-10.222,12.48
+Hippoglossina oblonga,American fourspot flounder,39.926,40.237,0.31,0.78,-102.027,-120.555,-18.529,18.16
+Hippoglossoides platessoides,American plaice,42.912,42.865,-0.047,-0.11,-139.814,-137.005,2.809,-2.01
+Hippoglossus hippoglossus,Atlantic halibut,42.706,43.266,0.56,1.31,-124.499,-119.568,4.931,-3.96
+Homarus americanus,American lobster,41.259,42.942,1.683,4.08,-169.39,-159.335,10.055,-5.94
+Illex illecebrosus,Northern shortfin squid,38.944,40.166,1.221,3.14,-178.211,-177.87,0.341,-0.19
+Leucoraja erinaceus,Little skate,40.569,40.382,-0.188,-0.46,-48.197,-54.802,-6.604,13.7
+Leucoraja ocellata,Winter skate,41.351,40.838,-0.513,-1.24,-49.663,-78.807,-29.144,58.68
+Lophius americanus,Monkfish,40.658,42.17,1.512,3.72,-129.634,-186.021,-56.387,43.5
+Malacoraja senta,Smooth skate,42.543,42.913,0.369,0.87,-188.706,-199.811,-11.104,5.88
+Melanogrammus aeglefinus,Haddock,41.759,42.182,0.423,1.01,-81.155,-111.261,-30.106,37.1
+Merluccius albidus,Offshore hake,39.791,39.084,-0.707,-1.78,-228.777,-214.585,14.193,-6.2
+Merluccius bilinearis,Silver hake,40.95,42.706,1.756,4.29,-127.843,-169.054,-41.21,32.24
+Myoxocephalus octodecemspinosus,Longhorn sculpin,41.294,41.872,0.578,1.4,-59.536,-70.576,-11.039,18.54
+Myzopsetta ferruginea,Yellowtail flounder,40.851,42.354,1.503,3.68,-52.754,-77.735,-24.982,47.35
+Paralichthys dentatus,Summer flounder,38.705,39.477,0.772,1.99,-78.827,-86.726,-7.899,10.02
+Peprilus triacanthus,American butterfish,39.59,39.434,-0.156,-0.39,-116.587,-120.894,-4.307,3.69
+Placopecten magellanicus,Atlantic sea scallop,39.304,40.825,1.521,3.87,-62.465,-75.446,-12.982,20.78
+Pollachius virens,Pollock,42.32,42.709,0.389,0.92,-146.866,-194.123,-47.258,32.18
+Prionotus carolinus,Northern searobin,38.674,39.238,0.564,1.46,-76.665,-77.889,-1.225,1.6
+Pseudopleuronectes americanus,Winter flounder,41.516,42.189,0.673,1.62,-51.566,-67.63,-16.064,31.15
+Rostroraja eglanteria,Clearnose skate,36.318,36.72,0.402,1.11,-35.149,-44.733,-9.584,27.27
+Scomber scombrus,Atlantic mackerel,39.127,40.959,1.832,4.68,-109.688,-80.393,29.295,-26.71
+Scophthalmus aquosus,Windowpane flounder,40.538,40.652,0.114,0.28,-57.265,-54.514,2.751,-4.8
+Sebastes fasciatus,Acadian redfish,42.825,42.712,-0.114,-0.27,-177.244,-185.838,-8.594,4.85
+Squalus acanthias,Spiny dogfish,40.245,39.543,-0.702,-1.74,-99.628,-94.365,5.264,-5.28
+Urophycis chuss,Red hake,40.89,42.531,1.641,4.01,-113.856,-179.8,-65.944,57.92
+Urophycis regia,Spotted hake,37.842,39.454,1.611,4.26,-103.787,-109.392,-5.605,5.4
+Urophycis tenuis,White hake,42.851,42.883,0.032,0.07,-203.622,-216.223,-12.6,6.19
+Zoarces americanus,Ocean pout,40.924,41.958,1.034,2.53,-49.037,-78.746,-29.708,60.58
