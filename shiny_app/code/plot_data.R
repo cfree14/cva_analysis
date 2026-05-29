@@ -205,6 +205,7 @@ plot_subscore_quality <- function(data, region){
   ##############################
   
   # Longest x-axis label
+  region_do <- region
   nchar_max <- data %>% 
     filter(region==region_do) %>% 
     pull(attribute) %>% unique() %>% nchar() %>% max()

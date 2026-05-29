@@ -49,6 +49,7 @@ ui <- fluidPage(
   
   # Plot scores
   h3("CVA scores"),
+  p("The figure below shows the CVA results by species and functional group. Species are ordered by vulnerability within each functional group."),
   plotOutput(outputId = "plot_scores", width=500, height=600),
   
   # Plot subscores
