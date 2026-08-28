@@ -14,16 +14,41 @@ datadir <- "data"
 plotdir <- "figures"
 
 # Read data
-data_orig <- readxl::read_excel("data/cva/processed/cva_sensitivity_attributes.xlsx")
+data_orig <- readxl::read_excel("data/cva/processed/cva_applications.xlsx")
 
-# Format data
-atts <- data_orig %>% 
-  filter(study=="Loughran") %>% pull(attribute) %>% rev()
+# TO-DO
+# You want to carefully examine raw data (actions assigned to quotes)
+
+# Build data
+################################################################################
+
+# Build data
+data <- data_orig %>% 
+  # Simplify
+  select(region, application) %>% 
+  # Split and gather applicaitons
+  separate(col="application", into=paste("application", 1:5), sep=", ") %>% 
+  gather(key="application_num", value="application", 2:ncol(.)) %>% 
+  # Get ride of missing values
+  filter(!is.na(application)) %>% 
+  # Simplify
+  select(region, application) %>% 
+  unique()
+
+# Applications stats
+napps <- data %>% 
+  count(application) %>% 
+  arrange(desc(n))
+  
+# Region stats
+nregions <- data %>% 
+  count(region) %>% 
+  arrange(desc(n))
 
 # Plot data
 ################################################################################
 
-# Setup theme
+# Theme
 my_theme <-  theme(axis.text=element_text(size=8),
                    axis.title=element_text(size=9),
                    legend.text=element_text(size=8),
@@ -40,13 +65,20 @@ my_theme <-  theme(axis.text=element_text(size=8),
                    legend.background = element_rect(fill=alpha('blue', 0)))
 
 # Plot data
-ggplot(data_orig, aes(y=factor(attribute, levels=atts), x=region)) +
+g <- ggplot(data, aes(x=factor(region, nregions$region), 
+                 y=factor(application, napps$application))) +
   geom_tile() +
   # Labels
-  labs(y="Sensitivity attribute", x="Region") +
+  labs(x="Region", y="Potential application") +
   # Theme
   theme_bw() + my_theme +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
+g  
+
+# Export
+ggsave(g, filename=file.path(plotdir, "FigX_cva_applications.png"),
+       width=6.5, height=4.5, units="in", dpi=600)
+
 
 
 
