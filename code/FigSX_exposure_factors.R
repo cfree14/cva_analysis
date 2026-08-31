@@ -62,13 +62,13 @@ g <- ggplot(data_orig, aes(y=attribute %>% factor(., levels=stats$attribute),
                            x=region %>% factor(., levels=nstats$region))) +
   geom_tile() +
   # Labels
-  labs(y="Exposure attribute", x="Region") +
+  labs(y="Exposure factor", x="Region") +
   # Theme
   theme_bw() + my_theme +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
 g
 
 # Export
-ggsave(g, filename=file.path(plotdir, "us_cva_exposure_attributes.png"),
+ggsave(g, filename=file.path(plotdir, "FigSX_exposure_factors.png"),
        width=5.5, height=5.5, units="in", dpi=600)
 
