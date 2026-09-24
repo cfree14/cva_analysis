@@ -77,7 +77,7 @@ g
 
 # Export
 ggsave(g, filename=file.path(plotdir, "FigX_cva_applications.png"),
-       width=6.5, height=4.5, units="in", dpi=600)
+       width=6.5, height=4, units="in", dpi=600)
 
 
 
