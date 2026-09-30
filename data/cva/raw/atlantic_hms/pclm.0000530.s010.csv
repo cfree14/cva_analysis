@@ -1,0 +1,59 @@
+Stock Name,Code Name,EF Stock Name,Scientific Name,Functional Group,Abbreviation,Narrative Name
+Atlantic angel shark,angel,s_dumeril,Squatina dumeril,Small Coastal Sharks & Smoothhound,ANG,Atlantic angel shark
+Atlantic bigeye tuna,bigeye tuna,t_obesus,Thunnus obesus,Tunas,BET,Atlantic bigeye tuna
+Atlantic sharpnose shark - Atlantic,Atlantic sharpnose (ATL),r_terraenovae,Rhizoprionodon terraenovae,Small Coastal Sharks & Smoothhound,SAS,Atlantic sharpnose shark - Atlantic stock
+Atlantic sharpnose shark - Gulf of Mexico,Atlantic sharpnose (GOM),r_terraenovaeGOM,Rhizoprionodon terraenovae,Small Coastal Sharks & Smoothhound,SASgom,Atlantic sharpnose shark - Gulf of Mexico stock
+Atlantic yellowfin tuna,yellowfin tuna,t_albacares,Thunnus albacares,Tunas,YFT,Atlantic yellowfin tuna
+Basking shark,basking,c_maximus,Cetorhinus maximus,Large Coastal Sharks,BSG,Basking shark
+Bigeye sand tiger shark,bigeye sand tiger,o_noronhai,Odontaspis noronhai,Large Coastal Sharks,BST,Bigeye sand tiger shark
+Bigeye sixgill shark,bigeye sixgill,h_nakamurai,Hexanchus nakamurai,Pelagic Sharks,BES,Bigeye sixgill shark
+Bigeye thresher shark,bigeye thresher,a_superciliosus,Alopias superciliosus,Pelagic Sharks,BTH,Bigeye thresher shark
+Bignose shark,bignose,c_altimus,Carcharhinus altimus,Large Coastal Sharks,SBG,Bignose shark
+Atlantic blacknose shark - Atlantic,blacknose (ATL),c_acronotus,Carcharhinus acronotus,Small Coastal Sharks & Smoothhound,SBN,Blacknose shark - Atlantic stock
+Atlantic blacknose shark - Gulf of Mexico,blacknose (GOM),c_acronotusGOM,Carcharhinus acronotus,Small Coastal Sharks & Smoothhound,SBNgom,Blacknose shark - Gulf of Mexico stock
+Atlantic blacktip shark,blacktip (ATL),c_limbatus,Carcharhinus limbatus,Large Coastal Sharks,SBK,Blacktip shark - Atlantic stock
+Gulf of Mexico blacktip shark,blacktip (GOM),c_limbatusGOM,Carcharhinus limbatus,Large Coastal Sharks,SBKgom,Blacktip shark - Gulf of Mexico stock
+Blue marlin,blue marlin,m_nigricans,Makaira nigricans,Billfish/Swordfish,BUM,Blue marlin
+Atlantic bonnethead,bonnethead (ATL),s_tiburo,Sphyrna tiburo,Small Coastal Sharks & Smoothhound,BON,Bonnethead shark - Atlantic stock
+Gulf of Mexico bonnethead shark,bonnethead (GOM),s_tiburoGOM,Sphyrna tiburo,Small Coastal Sharks & Smoothhound,BONgom,Bonnethead shark - Gulf of Mexico stock
+Bull shark,bull,c_leucas,Carcharhinus leucas,Large Coastal Sharks,SBU,Bull shark
+Caribbean reef shark,Caribbean reef,c_perezi,Carcharhinus perezii,Large Coastal Sharks,SRF,Caribbean reef shark
+Caribbean sharpnose shark,Caribbean sharpnose,r_porosus,Rhizoprionodon porosus,Small Coastal Sharks & Smoothhound,SCS,Caribbean sharpnose shark
+Thresher shark,common thresher,a.vulpinus,Alopias vulpinus,Pelagic Sharks,PTH,Common thresher shark
+Dusky shark,dusky,c_obscurus,Carcharhinus obscurus,Large Coastal Sharks,DUS,Dusky shark
+Finetooth shark,finetooth,c_isodon,Carcharhinus isodon,Small Coastal Sharks & Smoothhound,SFT,Finetooth shark
+Florida smoothhound shark,Florida smoothhound,m_norrisi,Mustelus norrisi,Small Coastal Sharks & Smoothhound,FSH,Florida smoothhound - Gulf of Mexico complex stock
+Galapagos shark,Galapagos,c_galapagensis,Carcharhinus galapagensis,Large Coastal Sharks,GAL,Galapagos shark
+Great hammerhead shark,great hammerhead,s_mokarran,Sphyrna mokarran,Large Coastal Sharks,GHH,Great hammerhead
+Gulf smoothhound shark,gulf smoothhound,m_sinusmexicanus,Mustelus sinusmexicanus,Small Coastal Sharks & Smoothhound,GSH,Gulf smoothhound - Gulf of Mexico complex stock
+Lemon shark,lemon,n_brevirostris,Negaprion brevirostris,Large Coastal Sharks,LEM,Lemon shark
+Longbill spearfish,longbill spearfish,t_pfluegeri,Tetrapturus pfluegeri,Billfish/Swordfish,SPF,Longbill spearfish
+Longfin mako shark,longfin mako,i_paucus,Isurus paucus,Pelagic Sharks,LMA,Longfin mako
+Narrowtooth shark,narrowtooth,c_brachyurus,Carcharhinus brachyurus,Large Coastal Sharks,SNT,Narrowtooth shark
+Night shark,night,c_signatus,Carcharhinus signatus,Large Coastal Sharks,SNI,Night shark
+North Atlantic albacore tuna,albacore tuna,t_alalunga,Thunnus alalunga,Tunas,ALB,North Atlantic albacore tuna
+North Atlantic blue shark,blue,p_glauca,Prionace glauca,Pelagic Sharks,BSH,North Atlantic blue shark
+North Atlantic shortfin mako shark,shortfin mako,i_oxyrinchus,Isurus oxyrinchus,Pelagic Sharks,SMA,North Atlantic shortfin mako
+North Atlantic swordfish,swordfish,x_gladius,Xiphias gladius,Billfish/Swordfish,SWO,North Atlantic swordfish
+Northwest Atlantic porbeagle shark,porbeagle,l_nasus,Lamna nasus,Pelagic Sharks,POR,Northwest Atlantic porbeagle
+Nurse shark,nurse,g_cirratum,Ginglymostoma cirratum,Large Coastal Sharks,NUR,Nurse shark
+Oceanic whitetip shark,oceanic whitetip,c_longimanus,Carcharhinus longimanus,Pelagic Sharks,OCS,Oceanic whitetip shark
+Roundscale spearfish,roundscale spearfish,t_georgii,Tetrapturus georgii,Billfish/Swordfish,SPG,Roundscale spearfish
+Sand tiger shark,sand tiger,c_taurus,Carcharias taurus,Large Coastal Sharks,SST,Sand tiger shark
+Sandbar shark,sandbar,c_plumbeus,Carcharhinus plumbeus,Large Coastal Sharks,SSB,Sandbar shark
+Scalloped hammerhead shark,scalloped hammerhead,s_lewini,Sphyrna lewini,Large Coastal Sharks,SPL,Scalloped hammerhead
+Sharpnose sevengill shark,sharpnose sevengill,h_perlo,Heptranchias perlo,Pelagic Sharks,SVG,Sevengill shark
+Silky shark,silky,c_falciformis,Carcharhinus falciformis,Large Coastal Sharks,FAL,Silky shark
+Bluntnose sixgill shark,bluntnose sixgill,h_griseus,Hexanchus griseus,Pelagic Sharks,SXG,Sixgill shark
+Smalltail shark,smalltail,c_porosus,Carcharhinus porosus,Small Coastal Sharks & Smoothhound,STS,Smalltail shark
+Atlantic smooth dogfish - Atlantic,smooth dogfish (ATL),m_canisATL,Mustelus canis,Small Coastal Sharks & Smoothhound,DGS,Smooth dogfish - Atlantic stock
+Atlantic smooth dogfish - Gulf of Mexico,smooth dogfish (GOM),m_canisGOM,Mustelus canis,Small Coastal Sharks & Smoothhound,DGSgom,Smooth dogfish - Gulf of Mexico complex stock
+Smooth hammerhead shark,smooth hammerhead,s_zygaena,Sphyrna zygaena,Large Coastal Sharks,SHH,Smooth hammerhead
+Spinner shark,spinner,c_brevipinna,Carcharhinus brevipinna,Large Coastal Sharks,SSP,Spinner shark
+Tiger shark,tiger,g_cuvier,Galeocerdo cuvier,Large Coastal Sharks,TIG,Tiger shark
+West Atlantic bluefin tuna,bluefin tuna,t_thynnus,Thunnus thynnus,Tunas,BFT,West Atlantic bluefin tuna
+West Atlantic sailfish,Atlantic sailfish,i_platypterus,Istiophorus platypterus,Billfish/Swordfish,SAI,West Atlantic sailfish
+West Atlantic skipjack tuna,skipjack tuna,k_pelamis,Katsuwonus pelamis,Tunas,SKJ,West Atlantic skipjack tuna
+Whale shark,whale,r_typus,Rhincodon typus,Large Coastal Sharks,WHA,Whale shark
+White marlin,white marlin,k_albidus,Kajikia albida,Billfish/Swordfish,WHM,White marlin
+White shark,white,c_carcharias,Carcharodon carcharias,Large Coastal Sharks,WHI,White shark

@@ -1,0 +1,15 @@
+env_names,Exposure.Factor
+bt,Bottom Temperature
+sst,Sea Surface Temperature
+bs,Bottom Salinity
+sss,Sea Surface Salinity
+precip,Precipitation
+o200,Oxygen at 200m
+swsm,Surface Wind Stress Magnitude
+msstg,Magnitude of Sea Surface Temperature Gradient
+chl,Chlorophyll
+mld,Mixed Layer Depth
+ohc700,Ocean Heat Content at 700m
+ph,pH
+pp,Primary Production
+sso,Sea Surface Oxygen
