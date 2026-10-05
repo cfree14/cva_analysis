@@ -23,7 +23,12 @@ data_orig <- readxl::read_excel("data/cva/processed/cva_applications.xlsx")
 ################################################################################
 
 # Build data
-data <- data_orig %>% 
+data <- data_orig %>%
+  # Rename regions
+  mutate(region=recode(region, 
+                       "Bering Sea" = "Eastern Bering Sea",
+                       "Northeast"="Northeast U.S. Shelf", 
+                       "Pacific"="California Current")) %>% 
   # Simplify
   select(region, application) %>% 
   # Split and gather applicaitons

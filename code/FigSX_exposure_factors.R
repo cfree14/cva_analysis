@@ -24,17 +24,24 @@ data_orig <- readxl::read_excel("data/cva/processed/cva_exposure_attributes.xlsx
 data_orig %>% 
   count(region, attribute) %>% 
   filter(n!=1)
-
+  
 data_orig %>% 
   count(region)
 
+# Format data
+data <-  data_orig %>% 
+  # Rename region
+  mutate(region=recode(region, 
+                       "Bering Sea" = "Eastern Bering Sea",
+                       "Northeast"="Northeast U.S. Shelf"))
+
 # Number of regions with each attribute
-stats <- data_orig %>% 
+stats <- data %>% 
   count(attribute) %>% 
   arrange(desc(n))
 
 # Number of attributes per region
-nstats <- data_orig %>% 
+nstats <- data %>% 
   count(region) %>% 
   arrange(desc(n))
 
@@ -58,7 +65,7 @@ my_theme <-  theme(axis.text=element_text(size=8),
                    legend.background = element_rect(fill=alpha('blue', 0)))
 
 # Plot data
-g <- ggplot(data_orig, aes(y=attribute %>% factor(., levels=stats$attribute), 
+g <- ggplot(data, aes(y=attribute %>% factor(., levels=stats$attribute), 
                            x=region %>% factor(., levels=nstats$region))) +
   geom_tile() +
   # Labels
